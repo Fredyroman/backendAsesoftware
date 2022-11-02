@@ -30,11 +30,11 @@ public class Turnos {
 	@Column(name = "fecha_turno")
 	private String fechaTurno;
 
-	@JsonFormat(pattern = "yyyy-MM-dd")
+	@JsonFormat(pattern = "hh:mm")
 	@Column(name = "hora_inicio")
 	private Date horaInicio;
 
-	@JsonFormat(pattern = "yyyy-MM-dd")
+	@JsonFormat(pattern = "hh:mm")
 	@Column(name = "hora_fin")
 	private Date horaFin;
 
